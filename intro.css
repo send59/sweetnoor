@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Baloo 2", cursive;
+}
+.van {
+  margin-top: -0%;
+  background: linear-gradient(to left, #8942a8, #dd1608);
+}
+.icon {
+  width: 50px;
+  margin-left: 48%;
+  color: #fff;
+}
+.animation-area {
+  background: linear-gradient(to left, #8942a8, #dd1608);
+  width: 100%;
+  height: 100vh;
+}
+.box-area {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.box-area li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 25px;
+  height: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 20s linear infinite;
+  bottom: -150px;
+}
+.box-area li:nth-child(1) {
+  left: 10%;
+  width: 70px;
+  height: 70px;
+  animation-delay: 0s;
+  animation-duration: 10s;
+}
+.box-area li:nth-child(2) {
+  left: 25%;
+  width: 75px;
+  height: 75px;
+  animation-delay: 1s;
+  animation-duration: 10s;
+}
+.box-area li:nth-child(3) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 1.5s;
+  animation-duration: 5.5s;
+}
+.box-area li:nth-child(4) {
+  left: 80%;
+  width: 90px;
+  height: 90px;
+  animation-delay: 0.5s;
+  animation-duration: 10s;
+}
+.box-area li:nth-child(5) {
+  left: 90%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0.8s;
+  animation-duration: 15s;
+}
+.box-area li:nth-child(6) {
+  left: 50%;
+  width: 110px;
+  height: 100px;
+  animation-delay: 0.5s;
+}
+.box-area li:nth-child(7) {
+  left: 75%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 1s;
+  animation-duration: 5s;
+}
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-800px) rotate(360deg);
+    opacity: 0;
+  }
+}
+.name {
+  text-align: center;
+  font-style: italic;
+  color: #fff;
+}
+.name:nth-child(1) {
+  margin-top: 20%;
+  font-size: 28px;
+}
+.name:nth-child(2) {
+  margin-top: 30%;
+  font-size: 35px;
+}
+.name:nth-child(3) {
+  margin-top: 50%;
+  font-size: 90px;
+}
+.name:nth-child(4) {
+  margin-top: 50%;
+  font-size: 90px;
+}
+.name:nth-child(5) {
+  margin-top: 50%;
+  font-size: 20px;
+}
+.name:nth-child(6) {
+  margin-top: 50%;
+  font-size: 70px;
+}
+.name:nth-child(7) {
+  margin-top: 50%;
+  font-size: 20px;
+}
+.banner-text {
+  width: 100%;
+  position: absolute;
+}
+.banner-text h2 {
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  margin-top: 20%;
+}
+.pp {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.banner-text a {
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .banner-text h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 45px;
+    margin-top: 20%;
+    padding-top: 25%;
+  }
+  .pp {
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    padding: 2px 0;
+    text-decoration: none;
+    cursor: pointer;
+    letter-spacing: -1px;
+  }
+  .banner-text a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .icon {
+    width: 40px;
+    margin-left: 45%;
+    color: #fff;
+  }
+}

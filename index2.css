@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Baloo 2", cursive;
+}
+.header {
+  height: 100vh;
+}
+.icon {
+  width: 50px;
+  margin-left: 48%;
+  color: #fff;
+}
+.navbar-style {
+  box-shadow: 0 5px #efefef;
+  text-transform: lowercase;
+}
+.logo {
+  height: 50px;
+  padding: 2px 10px;
+  border-radius: 50%;
+}
+.icon-bar {
+  background: red;
+}
+li a {
+  color: red;
+  font-size: 25px;
+}
+.navbar-header {
+  position: sticky;
+  top: 0;
+}
+.big-text {
+  font-size: 52px;
+  margin: 20px 30px;
+  color: darkorange;
+  text-align: center;
+}
+.small-text {
+  font-size: 25px;
+  margin: 5px 30px;
+  color: orange;
+}
+.noor {
+  border-radius: 5px;
+}
+.coner {
+  padding: 0 20px;
+  font-size: 40px;
+  color: rgb(255, 0, 0);
+}
+.pics {
+  width: 95%;
+  margin-left: 3%;
+}
+.last {
+  margin-top: 80%;
+}
+.copy {
+  color: rgb(255, 0, 0);
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  margin-top: 10%;
+}
+@media (max-width: 768px) {
+  .big-text {
+    font-size: 44px;
+    margin: 20px 30px;
+  }
+  .small-text {
+    font-size: 20px;
+    margin: 5px 30px;
+  }
+  .last {
+    margin-top: 250%;
+  }
+}
